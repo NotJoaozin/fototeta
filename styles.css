@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #191919;
+}
+
+.box {
+    font-size: 20px;
+    color: #FFFFFF;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background: #810481;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
